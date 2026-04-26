@@ -47,23 +47,9 @@ brew install ffmpeg
 
 This project requires an OpenAI API key.
 
-For security reasons, the API key should not be written directly into the Python file. Instead, store it as an environment variable.
+For security reasons, the API key has not been made available in this push.
 
-On macOS or Linux, you can set the API key like this:
 
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
-
-Then, in the Python code, the OpenAI client can be created using:
-
-```python
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-```
-
-This is safer than hardcoding the API key directly into the program.
-
-Important: If an API key has already been shared publicly or uploaded to GitHub, it should be revoked and replaced immediately.
 
 ## How to Run
 
